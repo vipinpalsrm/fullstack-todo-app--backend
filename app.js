@@ -1,8 +1,8 @@
 const app = express();
-import cors from "cors";
 import { mongoconnection } from "./db";
 import router from "./routes/ToDoRoute";
 import bodyParser from "body-parser";
+import cors from "cors";
 
 import express from "express";
 require("dotenv").config();
