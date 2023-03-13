@@ -1,10 +1,10 @@
-import express from "express";
 const app = express();
 import bodyParser from "body-parser";
 import cors from "cors";
 import { mongoconnection } from "./db";
 import router from "./routes/ToDoRoute";
 
+import express from "express";
 require("dotenv").config();
 
 mongoconnection();
